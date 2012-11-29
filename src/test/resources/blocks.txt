@@ -1,0 +1,219 @@
+================================================================0
+i am plain
+text please do not
+shoot me or i will
+break up into many
+pieces lol.
+================================================================
+<p>
+i am plain
+text please do not
+shoot me or i will
+break up into many
+pieces lol.
+</p>
+================================================================1
+h1. The Title
+
+with some text after
+================================================================
+<h1>The Title</h1>
+
+<p>
+with some text after
+</p>
+================================================================2
+div.
+    This is a paragraph
+================================================================
+<div>
+    This is a paragraph
+</div>
+================================================================3
+div.
+    This is a paragraph that spans
+    multiple lines and thus takes up
+    more space
+
+    and has two sections.
+    lol omg
+================================================================
+<div>
+    This is a paragraph that spans
+    multiple lines and thus takes up
+    more space
+
+    and has two sections.
+    lol omg
+</div>
+================================================================4
+h1. The Title
+    spills onto the
+    next few lines.
+================================================================
+<h1>The Title
+    spills onto the
+    next few lines.
+</h1>
+================================================================5
+div.
+    Has a block element
+
+    which spills over multiple lines
+
+    p.  nested block level
+        content inside of him
+
+and escapes
+================================================================
+<div>
+    Has a block element
+
+    which spills over multiple lines
+
+    <p>nested block level
+        content inside of him
+    </p>
+</div>
+
+<p>
+and escapes
+</p>
+================================================================6
+div.
+    h1. This div
+
+    has some stuff
+
+    p.  inside with
+        more stuff
+
+    p.
+        inside several
+        nested paragraphs
+        a.  Some super nested text
+            link.
+                more nesting
+        a.
+            more nested text
+        and
+
+    some unstructured text
+
+and is followed by more text
+which sits outside
+
+in a few chunks
+with another
+
+ol.
+    li. There is some stuff here
+    li. There is more stuff here
+    li. There stuff more is here
+================================================================
+<div>
+    <h1>This div</h1>
+
+    has some stuff
+
+    <p>inside with
+        more stuff
+    </p>
+
+    <p>
+        inside several
+        nested paragraphs
+        <a>Some super nested text
+            <link>
+                more nesting
+            </link>
+        </a>
+        <a>
+            more nested text
+        </a>
+        and
+    </p>
+
+    some unstructured text
+</div>
+
+<p>
+and is followed by more text
+which sits outside
+</p>
+
+<p>
+in a few chunks
+with another
+</p>
+
+<ol>
+    <li>There is some stuff here</li>
+    <li>There is more stuff here</li>
+    <li>There stuff more is here</li>
+</ol>
+================================================================7
+div\.
+
+h1\. this is a a\{\} fake heading
+
+realdiv.
+    box.
+        fake\. i am a cow
+        and so are you
+
+
+
+    omg omg\[\] i am cow
+================================================================
+<p>
+div.
+</p>
+
+<p>
+h1. this is a a{} fake heading
+</p>
+
+<realdiv>
+    <box>
+        fake. i am a cow
+        and so are you
+    </box>
+
+
+
+    omg omg[] i am cow
+</realdiv>
+================================================================8
+\a
+\\a
+\\\a
+\\\\a
+\\\\\a
+\\\\\\a
+================================================================
+<p>
+a
+\a
+\a
+\\a
+\\a
+\\\a
+</p>
+================================================================9
+div.
+    div.p.
+        Testing the use of chained blocks
+        on the same line to make sure
+        
+        they play well with whitespace
+================================================================
+<div>
+    <div><p>
+        Testing the use of chained blocks
+        on the same line to make sure
+        
+        they play well with whitespace
+    </p></div>
+</div>
+================================================================

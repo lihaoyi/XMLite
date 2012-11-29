@@ -1,0 +1,52 @@
+================================================================0
+this is an &{entity} lol
+but this &one; is not
+================================================================
+<p>
+this is an &entity; lol
+but this &amp;one; is not
+</p>
+================================================================1
+div.
+    these &{are}&{a}&{few}&{entities}
+    &{stuck}&{together}&{closely}
+================================================================
+<div>
+    these &are;&a;&few;&entities;
+    &stuck;&together;&closely;
+</div>
+================================================================2
+numerical entities work too
+for example &{#1234}&{#5678}
+================================================================
+<p>
+numerical entities work too
+for example &#1234;&#5678;
+</p>
+================================================================3
+entities can't &{contain spaces} or &{spread
+over} multiple lines or contain &{punctuation.}
+================================================================
+<p>
+entities can't &amp;{contain spaces} or &amp;{spread
+over} multiple lines or contain &amp;{punctuation.}
+</p>
+================================================================4
+entities.
+    can occur inside{an inline &{omg}tag
+    block, and should &{a123} render properly}
+    regardless
+================================================================
+<entities>
+    can occur <inside>an inline &omg;tag
+    block, and should &a123; render properly</inside>
+    regardless
+</entities>
+================================================================5
+div.
+    entities can be \&{escaped}\&{if}\&{really}\&{necessary}
+================================================================
+<div>
+    entities can be &amp;{escaped}&amp;{if}&amp;{really}&amp;{necessary}
+</div>
+================================================================
