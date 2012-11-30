@@ -4,7 +4,7 @@ import scala.util.parsing.combinator._
 import scala.util.parsing.input._
 import scala.xml._
 
-object MarkXDefaults{
+object XMLiteDefaults{
    
   case class ArgSpec(
     open: String = "[",
@@ -22,12 +22,12 @@ object MarkXDefaults{
   )
 }
 
-object DefaultMarkXParser extends MarkXParser()
+object DefaultXMLiteParser extends XMLiteParser()
 
-case class MarkXParser(
+case class XMLiteParser(
   listSpec: (String, scala.xml.Elem) = ("-", <li/>),
-  argSpec: MarkXDefaults.ArgSpec = MarkXDefaults.ArgSpec(),
-  shortcutSpec: Seq[(String, scala.xml.Elem)] = MarkXDefaults.shortcuts,
+  argSpec: XMLiteDefaults.ArgSpec = XMLiteDefaults.ArgSpec(),
+  shortcutSpec: Seq[(String, scala.xml.Elem)] = XMLiteDefaults.shortcuts,
   entityStart: String = "&",
   openInline: String = "{",
   closeInline: String = "}",

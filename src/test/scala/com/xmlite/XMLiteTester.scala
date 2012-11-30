@@ -2,18 +2,19 @@ package com.xmlite
 
 import io.Source
 
-import main.DefaultMarkXParser
+import main.DefaultXMLiteParser
 import org.scalatest._
+import collection.mutable
 
 
-class Tests extends FreeSpec with ShouldMatchers with ParallelTestExecution {
+class XMLiteTester extends FreeSpec with ShouldMatchers{
+
 
   def load(path: String) = {
-    println("Loading: " + path)
     Source.fromURL(getClass.getResource("/" + path))
-      .getLines().reduce(_ + "\n" + _)
-      .split("\n?================================================================\\d*\n?")
-      .drop(1).grouped(2).map(x => (x(0), x(1))).toList
+        .getLines().reduce(_ + "\n" + _)
+        .split("\n?================================================================\\d*\n?")
+        .drop(1).grouped(2).map(x => (x(0), x(1))).toList
   }
   def parse(s: String) = {
 
@@ -26,11 +27,11 @@ class Tests extends FreeSpec with ShouldMatchers with ParallelTestExecution {
   def test(data: (String, String)) = {
     val (input, output) = data
     val expectedOutput = parse("<root>\n" + output + "\n</root>")
-    val parsedOutput = parse(DefaultMarkXParser.parse(input).toString())
-    println("====================EXPECTED====================")
-    println(expectedOutput)
-    println("====================PARSED====================")
-    println(parsedOutput)
+    val parsedOutput = parse(DefaultXMLiteParser.parse(input).toString())
+//    println("====================EXPECTED====================")
+//    println(expectedOutput)
+//    println("====================PARSED====================")
+//    println(parsedOutput)
     assert(parse(parsedOutput.toString) == parse(expectedOutput.toString))
 
   }
