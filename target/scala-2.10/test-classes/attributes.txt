@@ -1,0 +1,65 @@
+================================================================0
+a[href=www.google.com, class=linkCls]
+================================================================
+<a href="www.google.com" class="linkCls"/>
+================================================================1
+a[href=www.google.com, class=linkCls]
+    cow i like to eat grass
+================================================================
+<a href="www.google.com" class="linkCls">
+    cow i like to eat grass
+</a>
+================================================================2
+a[href=www.google.com, class=linkCls,omg,wtf,bbq]
+    cow i like to eat grass
+================================================================
+<a arg4="bbq" arg2="omg" class="linkCls" arg3="wtf" href="www.google.com">
+    cow i like to eat grass
+</a>
+================================================================3
+of wiki[www.wikipedia.org]{ text
+s} connected to the
+inline a[href=www.google.com]{tags}
+================================================================
+<p>
+of <wiki arg0="www.wikipedia.org"> text
+s</wiki> connected to the
+inline <a href="www.google.com">tags</a>
+</p>
+================================================================4
+This tests
+
+div[href=www.google.com,
+    color=red,
+    id=my_link]
+    This is a div which demonstrates
+    the use of multi-line attribute lists
+================================================================
+<p>
+This tests
+</p>
+
+<div href="www.google.com" color="red" id="my_link">
+    This is a div which demonstrates
+    the use of multi-line attribute lists
+</div>
+================================================================5
+div[color=\, \]]
+    this is testing a[href=www.google.com?q=\[0\, 1\, 3\]]{the}
+    escaping of wiki[UC\, Berkeley] strings in argument lists
+    for example wiki[UC,Berkeley]
+================================================================
+<div color=", ]">
+    this is testing <a href="www.google.com?q=[0, 1, 3]">the</a>
+    escaping of <wiki arg0="UC, Berkeley"/> strings in argument lists
+    for example <wiki arg0="UC" arg1="Berkeley"/>
+</div>
+================================================================6
+div[gg=nore,
+    xmlns=cow]
+    cow
+================================================================
+<div gg="nore" xmlns="cow">
+    cow
+</div>
+================================================================

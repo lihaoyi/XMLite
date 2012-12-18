@@ -1,0 +1,11 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(C:\Dropbox\Workspace\xmlite\src\test\resources\attributes.txt,C:\Dropbox\Workspace\xmlite\target\scala-2.10\test-classes\attributes.txt)[0m
+[0m[[0mdebug[0m] [0m	(C:\Dropbox\Workspace\xmlite\src\test\resources\autochunk.txt,C:\Dropbox\Workspace\xmlite\target\scala-2.10\test-classes\autochunk.txt)[0m
+[0m[[0mdebug[0m] [0m	(C:\Dropbox\Workspace\xmlite\src\test\resources\blocks.txt,C:\Dropbox\Workspace\xmlite\target\scala-2.10\test-classes\blocks.txt)[0m
+[0m[[0mdebug[0m] [0m	(C:\Dropbox\Workspace\xmlite\src\test\resources\entities.txt,C:\Dropbox\Workspace\xmlite\target\scala-2.10\test-classes\entities.txt)[0m
+[0m[[0mdebug[0m] [0m	(C:\Dropbox\Workspace\xmlite\src\test\resources\inline.txt,C:\Dropbox\Workspace\xmlite\target\scala-2.10\test-classes\inline.txt)[0m
+[0m[[0mdebug[0m] [0m	(C:\Dropbox\Workspace\xmlite\src\test\resources\lists.txt,C:\Dropbox\Workspace\xmlite\target\scala-2.10\test-classes\lists.txt)[0m
+[0m[[0mdebug[0m] [0m	(C:\Dropbox\Workspace\xmlite\src\test\resources\procinsts.txt,C:\Dropbox\Workspace\xmlite\target\scala-2.10\test-classes\procinsts.txt)[0m
+[0m[[0mdebug[0m] [0m	(C:\Dropbox\Workspace\xmlite\src\test\resources\rawblocks.txt,C:\Dropbox\Workspace\xmlite\target\scala-2.10\test-classes\rawblocks.txt)[0m
+[0m[[0mdebug[0m] [0m	(C:\Dropbox\Workspace\xmlite\src\test\resources\samples.txt,C:\Dropbox\Workspace\xmlite\target\scala-2.10\test-classes\samples.txt)[0m
+[0m[[0mdebug[0m] [0m	(C:\Dropbox\Workspace\xmlite\src\test\resources\shortcuts.txt,C:\Dropbox\Workspace\xmlite\target\scala-2.10\test-classes\shortcuts.txt)[0m
