@@ -79,18 +79,6 @@ Block Tags
         has multiple lines
     </h1>
 
-    div..
-        auto-chunked block groups
-
-        body into paragraphs automatically
-    <div>
-        <p>
-        auto-chunked block groups
-        </p>
-        <p>
-        body into paragraphs automatically
-        </p>
-    </div>
 
 Block tags are a simple way of grouping markup into a hierarchical structure. They convert directly into XML, but are whitespace-delimited and far less verbose.
 
@@ -141,7 +129,7 @@ Shortcuts are a convenient way of accessing the most commonly used tags in a mar
 
 -----------------------------------------
 
-These are the primary mechanisms by which Xmlite marks up documents; unlike languages like [Markdown](http://en.wikipedia.org/wiki/Markdown) or [Textile](http://tinyurl.com/y4hjrs), none of the tags are special cased: all of them translate almost verbatim into equivalent XML, meaning you never need to drop into inline HTML or invent [special syntax](https://help.github.com/articles/github-flavored-markdown#task-lists) for your own use. The underlying markup is extensible, so you can just create a new tag `my_tag.` rather than coming up with ad-hoc modifications to the grammar. All the features of HTML which require special syntactic forms in other languages (links, images, divs, etc.) are simply tags in Xmlite.
+These are the primary mechanisms by which Xmlite marks up documents; unlike languages like [Markdown](http://en.wikipedia.org/wiki/Markdown) or [Textile](http://tinyurl.com/y4hjrs), none of the tags are special cased: all of them translate almost verbatim into equivalent XML, meaning you never need to drop into inline HTML or invent [special syntax](https://help.github.com/articles/github-flavored-markdown#task-lists) for your own use. The underlying markup is extensible, so you can just create a new tag `my_tag.` rather than coming up with ad-hoc modifications to the grammar. All the features of HTML which require special syntactic forms in other languages (links, images, divs, etc.) are simply tags in Xmlite, and all custom attributes similarly have a uniform syntax.
 
 Edge Cases
 ==========
@@ -205,27 +193,12 @@ Raw blocks, delimited by `div:` instead of `div.`, are blocks which are converte
 Autochunk Blocks
 ----------------
 
-    div.
-        This is a div without
-        auto blocking of text
-
-        so the text just stays as
-        one big blob inside the div
-
     div..
         This is a div with
         auto blocking of text
 
         so the text gets split into
         two separate paragraphs
-
-    <div>
-        This is a div without
-        auto blocking of text
-
-        so the text just stays as
-        one big blob inside the div
-    </div>
 
     <div>
         <p>
