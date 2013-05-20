@@ -10,7 +10,7 @@ Xmlite is a lightweight markup language that compiles to XML. It's goal is to of
 
     *Cattle* (colloquially cows) are the most common type
     of a[href=http://en.wikipedia.org/wiki/Domestication]{domesticated}
-    large a[href=ungulates]{http://en.wikipedia.org/wiki/Ungulates}. They are a
+    large a[href=http://en.wikipedia.org/wiki/Ungulates]{ungulates}. They are a
     prominent modern member of the subfamily em{Bovinae}.
 
     div[class=box]..
@@ -35,7 +35,7 @@ into
     <p>
 	<b>Cattle</b> (colloquially cows) are the most common type
     of <a href="http://en.wikipedia.org/wiki/Domestication">domesticated</a>
-    large <a href="ungulates">http://en.wikipedia.org/wiki/Ungulates</a>. They are a
+    large <a href="http://en.wikipedia.org/wiki/Ungulates">ungulates</a>. They are a
     prominent modern member of the subfamily <em>Bovinae</em>.
     </p>
 
