@@ -11,7 +11,7 @@ Xmlite is a lightweight markup language that compiles to XML. It's goal is to of
     *Cattle* (colloquially cows) are the most common type
     of a[href=http://en.wikipedia.org/wiki/Domestication]{domesticated}
     large a[href=http://en.wikipedia.org/wiki/Ungulates]{ungulates}. They are a
-    prominent modern member of the subfamily em{Bovinae}.
+    prominent modern member of the subfamily _Bovinae_.
 
     div[class=box]..
 
